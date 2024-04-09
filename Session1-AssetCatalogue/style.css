@@ -1,0 +1,69 @@
+*
+ {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.round-button {
+    background-color: #007bff; 
+    border: none; 
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    position: sticky;
+    font-size: 26px; 
+    margin-left: 50%;
+    cursor: pointer;
+    border-radius: 50%; 
+    margin-top: 8%;
+    margin-left: 82%;
+    margin-bottom: 10px;
+
+}
+
+.session-container {
+    position: relative;
+}
+
+/* Normal styles */
+.session-container .container {
+   
+    border: 1px solid black;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    display: none;
+    background-color: white;
+   
+}
+
+/* Landscape div to hide */
+.landscape-div{
+    display: block;
+  
+}
+.landscape-div .container1 {
+    position: absolute;
+    width: 90%; 
+    display: block;
+    background-color: gainsboro;
+}
+
+/* Style of Add new asset file */
+
+.session-container1 {
+    position: relative;
+}
+
+.session-container1 .container {
+    border: 1px solid black;
+    position: absolute;
+    width: 500px; 
+    height: auto;
+    background-color: white;
+    
+}
